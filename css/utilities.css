@@ -3,9 +3,9 @@
     cursor: pointer;
     display: inline-block;
     color: #fff;
-    background-color: #cc0022;
+    background-color: #ab061f;
     border: none;
-    border-radius: 10%;
+    border-radius: 20px;
     padding: 5px 15px;
 }
 
@@ -26,8 +26,42 @@
     text-align: center;
 }
 
+/* Div backgrounds */
+.bg-1 {
+    background-color: #cc0022;
+}
+.bg-2 {
+    background-color: #30475e;
+    color: #ddd;
+}
+
+.bg-3 {
+    background-color: #222831;
+    color: #ddd;
+}
+
+.bg-1 img,
+.bg-2 img,
+.bg-3 img {
+    border: 2px solid #ddd;
+}
+
+.bg-4 {
+    background-color: #aaaaaa;
+    color: #232323;
+}
+
+.bg-4 img {
+    border: 2px solid #232323;
+}
+
 /* Flex */
 /* Flex Container Columns */
+.flex-container-col {
+    display: flex;
+    flex-direction: column;
+}
+
 .flex-container-col .row {
     display: flex;
     flex-direction: row;
@@ -35,20 +69,41 @@
     width: 100%;
 }
 
+.flex-container-col .row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
 .flex-container-col .column {
     display: flex;
     flex-direction: column;
-    flex-basis: 100%;
-    flex: 1;
-    /* justify-content: center; */
+    flex: 1 1 0px;
+    justify-content: center;
+    max-height: 500px;
 }
 
-.flex-container-col img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.flex-container-col .column-1 {
+    padding: 3% 5%;
+    max-height: inherit;
 }
 
 .flex-container-col .column-2 {
-    padding: 50px;
+    padding-right: 30px;
+    max-height: inherit;
+}
+
+.flex-container-col img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.flex-container-col h2 {
+    font-size: 40px;
+}
+
+.flex-container-col p {
+    font-size: 20px;
 }
