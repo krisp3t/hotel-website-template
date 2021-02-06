@@ -9,17 +9,13 @@
     padding: 5px 15px;
 }
 
+.btn:hover {
+    color: #f05454;
+}
+
 /* Text */
 .text-1 {
     color: #cc0022;
-}
-
-.text-2 {
-    color: #fff;
-}
-
-.text-3 {
-    color: #d9d6d2;
 }
 
 .text-center {
@@ -90,7 +86,7 @@
 }
 
 .flex-container-col .column-2 {
-    padding-right: 30px;
+    padding: 0% 10%;
     max-height: inherit;
 }
 
@@ -102,8 +98,16 @@
 
 .flex-container-col h2 {
     font-size: 40px;
+    padding-bottom: 20px;
 }
 
 .flex-container-col p {
     font-size: 20px;
+}
+
+/* Flex Container Rows */
+.flex-container-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }

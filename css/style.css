@@ -26,11 +26,8 @@ ul {
 }
 
 a {
+    color: #ddd;
     text-decoration: none;
-}
-
-a:hover {
-    color: #f05454;
 }
 
 /* Navbar */
@@ -42,6 +39,11 @@ a:hover {
 
 #logo .text-1 {
     font-weight: bold;
+}
+
+#logo a:hover,
+#logo .text-1:hover {
+    color: #fff;
 }
 
 #navbar {
@@ -69,7 +71,7 @@ a:hover {
 }
 
 #navbar ul li a:hover {
-    border-bottom: #fff 1px solid;
+    border-bottom: #cc0022 1px solid;
 }
 
 /* Hero Image */
@@ -117,12 +119,4 @@ a:hover {
 
 #hero * {
     z-index: 1;
-}
-
-/* About */
-#about {
-    font-size: calc(100% + 0.3vw);
-}
-#about h2 {
-    padding-bottom: 20px;
 }
