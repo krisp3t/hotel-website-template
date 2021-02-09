@@ -120,3 +120,47 @@ a {
 #hero * {
     z-index: 1;
 }
+
+/* Testimonials */
+#testimonials {
+    padding-top: 20px;
+}
+
+#testimonials h2 {
+    display: inline-block;
+    border-bottom: 1px dotted #ddd;
+    margin-bottom: 20px;
+}
+
+#testimonials p {
+    color: #ddd;
+    font-style: italic;
+}
+
+#testimonials div img {
+    border-radius: 50%;
+    width: 100%;
+}
+
+/* Contact */
+#contact .form-group {
+    width: 100%;
+    padding: 20px;
+}
+
+#contact label {
+    display: block;
+}
+
+#contact input {
+    width: 100%;
+    border: 1px #ddd solid;
+}
+
+#contact input:focus {
+    outline-color: #222831;
+}
+
+#contact .btn {
+    padding: 5px 30px;
+}

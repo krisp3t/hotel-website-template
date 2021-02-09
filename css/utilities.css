@@ -15,16 +15,18 @@
 
 /* Text */
 .text-1 {
-    color: #cc0022;
+    color: #ab061f;
 }
 
 .text-center {
     text-align: center;
+    justify-content: center;
 }
 
 /* Div backgrounds */
 .bg-1 {
-    background-color: #cc0022;
+    background-color: #ab061f;
+    color: #ddd;
 }
 .bg-2 {
     background-color: #30475e;
@@ -36,15 +38,15 @@
     color: #ddd;
 }
 
+.bg-4 {
+    background-color: #aaaaaa;
+    color: #232323;
+}
+
 .bg-1 img,
 .bg-2 img,
 .bg-3 img {
     border: 2px solid #ddd;
-}
-
-.bg-4 {
-    background-color: #aaaaaa;
-    color: #232323;
 }
 
 .bg-4 img {
@@ -109,5 +111,11 @@
 .flex-container-row {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    height: 100%;
+    justify-content: space-around;
+}
+
+.flex-container-row .column {
+    padding: 0% 5%;
+    justify-content: flex-start;
 }
