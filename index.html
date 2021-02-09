@@ -12,6 +12,7 @@
         />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Hotel Slavia | Hotels Ljubljana</title>
+        <link rel="stylesheet" href="css/lightbox.min.css" />
         <link rel="stylesheet" href="css/utilities.css" />
         <link rel="stylesheet" href="css/style.css" />
         <!-- FontAwesome -->
@@ -62,7 +63,13 @@
                 <div class="row bg-3">
                     <div class="column">
                         <div class="column-1">
-                            <img src="images/about/1.jpeg" alt="" />
+                            <a
+                                href="images/about/1.jpeg"
+                                data-lightbox="about"
+                                data-title="147 comfortable rooms with rich amenities"
+                            >
+                                <img src="images/about/1.jpeg" alt=""
+                            /></a>
                         </div>
                     </div>
                     <div class="column">
@@ -86,7 +93,13 @@
                 <div class="row-reverse bg-2">
                     <div class="column">
                         <div class="column-1">
-                            <img src="images/about/2.jpg" alt="" />
+                            <a
+                                href="images/about/2.jpg"
+                                data-lightbox="about"
+                                data-title="Cafeteria for the gourmands"
+                            >
+                                <img src="images/about/2.jpg" alt=""
+                            /></a>
                         </div>
                     </div>
                     <div class="column">
@@ -110,7 +123,13 @@
                 <div class="row bg-4">
                     <div class="column">
                         <div class="column-1">
-                            <img src="images/about/3.jpeg" alt="" />
+                            <a
+                                href="images/about/3.jpeg"
+                                data-lightbox="about"
+                                data-title="Fitness Centre & Spa"
+                            >
+                                <img src="images/about/3.jpeg" alt=""
+                            /></a>
                         </div>
                     </div>
                     <div class="column">
@@ -132,6 +151,7 @@
                 </div>
             </section>
 
+            <!-- Location -->
             <section id="location" class="flex-container-col text-center">
                 <div class="row-reverse bg-3">
                     <div class="column">
@@ -164,6 +184,7 @@
                 </div>
             </section>
 
+            <!-- Testimonials -->
             <section id="testimonials" class="bg-1">
                 <div class="flex-container-row text-center">
                     <div class="column">
@@ -176,7 +197,7 @@
                         <h2>Shannel W.</h2>
                         <p>
                             "I will never forget the culinary excellence,
-                            remarkable presentation and perfect service.""
+                            remarkable presentation and perfect service."
                         </p>
                     </div>
                     <div class="column">
@@ -190,6 +211,7 @@
                 </div>
             </section>
 
+            <!-- Contact -->
             <section id="contact" class="flex-container-col text-center">
                 <div class="row bg-2">
                     <div class="column">
@@ -229,6 +251,19 @@
             </section>
         </main>
 
-        <footer></footer>
+        <!-- Footer -->
+        <footer id="footer" class="bg-3 text-center">
+            <div class="social">
+                <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
+                <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+                <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+            </div>
+            <p>Copyright &copy; 2021 - Hotel Slavia</p>
+            <p>Design by <span class="text-1">krisp3t</span></p>
+        </footer>
+        <!-- Scripts -->
+        <script src="./js/lightbox-plus-jquery.min.js"></script>
     </body>
 </html>
