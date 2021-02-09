@@ -263,7 +263,23 @@
             <p>Copyright &copy; 2021 - Hotel Slavia</p>
             <p>Design by <span class="text-1">krisp3t</span></p>
         </footer>
+
         <!-- Scripts -->
         <script src="./js/lightbox-plus-jquery.min.js"></script>
+        <script>
+            // Smooth Scrolling
+            $("#navbar a, .btn").on("click", function (e) {
+                if (this.hash !== "") {
+                    e.preventDefault();
+                    const hash = this.hash;
+                    $("html, body").animate(
+                        {
+                            scrollTop: $(hash).offset().top - 100,
+                        },
+                        800
+                    );
+                }
+            });
+        </script>
     </body>
 </html>
