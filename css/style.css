@@ -15,7 +15,9 @@ body {
     letter-spacing: 0.5px;
 }
 h1,
-h2 {
+h2,
+input,
+textarea {
     font-family: "Lexend Mega", sans-serif;
 }
 ul {
@@ -27,7 +29,6 @@ a {
 }
 section {
     padding: 20px 0;
-    max-width: 100vw;
 }
 
 /* Navbar */
@@ -111,7 +112,7 @@ section {
 }
 
 /* About */
-#about.flex-container-col .column {
+#about.flex-container .column {
     padding: 20px 3%;
 }
 
@@ -135,7 +136,7 @@ section {
     width: 100%;
 }
 #testimonials .column {
-    padding: 0 100px;
+    margin: 0 5vw;
     justify-content: flex-start;
 }
 
@@ -146,13 +147,17 @@ section {
 }
 #contact label {
     display: block;
+    padding-bottom: 10px;
 }
-#contact input {
-    width: 100%;
-    border: 1px #ddd solid;
+#contact input,
+#contact textarea {
+    width: 80%;
+    border: 1px #232323 solid;
+    padding: 6px;
+    background-color: #aaaaaa;
 }
-#contact input:focus {
-    outline-color: #222831;
+#contact textarea {
+    height: 200px;
 }
 #contact .btn {
     padding: 5px 30px;
