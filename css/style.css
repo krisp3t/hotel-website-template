@@ -9,8 +9,6 @@
 }
 body {
     font-family: "Roboto Slab", serif;
-    background: #fff;
-    color: #333;
     line-height: 1.6;
     letter-spacing: 0.5px;
 }
@@ -33,9 +31,7 @@ section {
 
 /* Navbar */
 #logo {
-    color: #fff;
     font-weight: 200;
-    /* font-size: 35px; */
 }
 #logo .text-1 {
     font-weight: bold;
@@ -54,7 +50,7 @@ section {
     height: 60px;
     position: fixed;
     top: 0px;
-    padding: 0 30px;
+    padding: 0 10vw;
 }
 #navbar ul {
     display: flex;
@@ -66,7 +62,7 @@ section {
     margin: 0 5px;
 }
 #navbar ul li a:hover {
-    border-bottom: #cc0022 1px solid;
+    border-bottom: 1px solid #cc0022;
 }
 
 /* Hero Image */
@@ -75,14 +71,10 @@ section {
     height: 100vh;
     position: relative;
     color: #fff;
-    /* border-bottom: 5px solid #000; */
 }
 #hero .content {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
     height: 100%;
 }
 #hero .content h2 {
@@ -112,32 +104,42 @@ section {
 }
 
 /* About */
-#about.flex-container .column {
-    padding: 20px 3%;
+#about .column {
+    padding: 20px 3vw;
 }
 
 /* Testimonials */
 #testimonials {
-    padding: 20px 5vw;
+    padding: 20px 5vw 40px;
 }
 #testimonials h2 {
     display: inline-block;
     width: 100%;
+    font-size: 1.5vw;
     border-bottom: 1px dotted #ddd;
+    padding-bottom: 10px;
     margin-bottom: 20px;
 }
 #testimonials p {
     color: #ddd;
     font-style: italic;
-    font-size: 1.2rem;
+    font-size: 18px;
 }
 #testimonials div img {
     border-radius: 50%;
-    width: 100%;
+    width: 60%;
+    margin-bottom: 20px;
 }
 #testimonials .column {
-    margin: 0 5vw;
+    padding: 0 3vw;
     justify-content: flex-start;
+    align-items: center;
+}
+
+/* Location */
+#location iframe {
+    width: 70%;
+    height: 40vh;
 }
 
 /* Contact */
@@ -152,7 +154,7 @@ section {
 #contact input,
 #contact textarea {
     width: 80%;
-    border: 1px #232323 solid;
+    border: 1px solid #232323;
     padding: 6px;
     background-color: #aaaaaa;
 }
@@ -160,7 +162,7 @@ section {
     height: 200px;
 }
 #contact .btn {
-    padding: 5px 30px;
+    padding: 6px 40px;
 }
 
 /* Footer */
@@ -168,13 +170,11 @@ section {
     padding: 20px;
 }
 #footer .social {
-    display: flex;
-    justify-content: center;
     padding-bottom: 10px;
 }
 #footer .social a {
     padding: 10px;
 }
 #footer .social a:hover {
-    color: #ab061f;
+    color: #ab112b;
 }

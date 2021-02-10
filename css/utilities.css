@@ -3,7 +3,7 @@
     cursor: pointer;
     display: inline-block;
     color: #fff;
-    background-color: #ab061f;
+    background-color: #ab112b;
     border: none;
     border-radius: 20px;
     padding: 5px 15px;
@@ -16,14 +16,10 @@
 .text-1 {
     color: #ab112b;
 }
-.text-center {
-    text-align: center;
-    justify-content: center;
-}
 
 /* Div backgrounds */
 .bg-1 {
-    background-color: #ab112b;
+    background-color: #690618;
     color: #ddd;
 }
 .bg-2 {
@@ -38,15 +34,20 @@
     background-color: #aaaaaa;
     color: #232323;
 }
-
 .bg-1 img,
 .bg-2 img,
 .bg-3 img {
     border: 2px solid #ddd;
 }
-
 .bg-4 img {
     border: 2px solid #232323;
+}
+
+/* Div utilities */
+.center {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Flex */

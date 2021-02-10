@@ -15,6 +15,7 @@
         <link rel="stylesheet" href="css/lightbox.min.css" />
         <link rel="stylesheet" href="css/utilities.css" />
         <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/media.css" />
         <!-- FontAwesome -->
         <script
             src="https://kit.fontawesome.com/683056ff78.js"
@@ -25,7 +26,7 @@
         <!-- Hero Image -->
         <header id="hero">
             <!-- Navbar -->
-            <div class="navbar top" id="navbar">
+            <div id="navbar">
                 <h1 id="logo">
                     <a href="#home">
                         <i class="fas fa-hotel"></i>
@@ -45,7 +46,7 @@
                 </nav>
             </div>
 
-            <div class="content">
+            <div class="content center">
                 <h2>
                     The <span class="text-1">comfiest</span> hotel in Central
                     Europe
@@ -59,7 +60,8 @@
 
         <main>
             <!-- About -->
-            <section id="about" class="flex-container text-center bg-3">
+            <section id="about" class="flex-container center bg-3">
+                <!-- Row 1 -->
                 <div class="row bg-3">
                     <div class="column column-1">
                         <a
@@ -67,7 +69,9 @@
                             data-lightbox="about"
                             data-title="147 comfortable rooms with rich amenities"
                         >
-                            <img src="images/about/1.jpeg" alt=""
+                            <img
+                                src="images/about/1.jpeg"
+                                alt="Photo of a hotel room"
                         /></a>
                     </div>
                     <div class="column column-2">
@@ -86,6 +90,7 @@
                         </p>
                     </div>
                 </div>
+                <!-- Row 2 -->
                 <div class="row-reverse bg-2">
                     <div class="column column-1">
                         <a
@@ -93,7 +98,9 @@
                             data-lightbox="about"
                             data-title="Cafeteria for the gourmands"
                         >
-                            <img src="images/about/2.jpg" alt=""
+                            <img
+                                src="images/about/2.jpg"
+                                alt="Photo of the cafeteria"
                         /></a>
                     </div>
                     <div class="column column-2">
@@ -112,6 +119,7 @@
                         </p>
                     </div>
                 </div>
+                <!-- Row 3 -->
                 <div class="row bg-4">
                     <div class="column column-1">
                         <a
@@ -119,7 +127,9 @@
                             data-lightbox="about"
                             data-title="Fitness Centre & Spa"
                         >
-                            <img src="images/about/3.jpeg" alt=""
+                            <img
+                                src="images/about/3.jpeg"
+                                alt="Photo in the spa centre"
                         /></a>
                     </div>
                     <div class="column column-2">
@@ -132,7 +142,7 @@
                         </p>
                         <p>
                             Take some time for yourself to strengthen your body
-                            in our modern fitness centre, then visit our Sauna
+                            in our modern fitness centre, then visit our sauna
                             area. You've earned it!
                         </p>
                     </div>
@@ -140,46 +150,39 @@
             </section>
 
             <!-- Location -->
-            <section id="location" class="flex-container text-center bg-3">
+            <section id="location" class="flex-container bg-3">
                 <div class="row-reverse bg-3">
-                    <div class="column">
-                        <div class="column-1">
-                            <iframe
-                                width="425"
-                                height="350"
-                                frameborder="0"
-                                scrolling="no"
-                                marginheight="0"
-                                marginwidth="0"
-                                src="https://www.openstreetmap.org/export/embed.html?bbox=14.50500547885895%2C46.04896109308303%2C14.508545994758608%2C46.05062158812797&amp;layer=mapnik&amp;marker=46.04979134684544%2C14.506775736808777"
-                            ></iframe
-                            ><br /><small
-                                ><a
-                                    href="https://www.openstreetmap.org/?mlat=46.04979&amp;mlon=14.50678#map=19/46.04979/14.50678"
-                                    >Show Full Map</a
-                                ></small
-                            >
-                        </div>
+                    <div class="column column-1 center">
+                        <iframe
+                            src="https://www.openstreetmap.org/export/embed.html?bbox=14.50500547885895%2C46.04896109308303%2C14.508545994758608%2C46.05062158812797&amp;layer=mapnik&amp;marker=46.04979134684544%2C14.506775736808777"
+                        ></iframe
+                        ><br /><small
+                            ><a
+                                href="https://www.openstreetmap.org/?mlat=46.04979&amp;mlon=14.50678#map=19/46.04979/14.50678"
+                                >Show Full Map</a
+                            ></small
+                        >
                     </div>
-                    <div class="column">
-                        <div class="column-2">
-                            <h2>Location</h2>
-                            <p class="text-1">Mestni trg 1</p>
-                            <p>1000 Ljubljana</p>
-                            <p>Slovenia</p>
-                        </div>
+                    <div class="column column-2 center">
+                        <h2>Location</h2>
+                        <p class="text-1">Mestni trg 1</p>
+                        <p>1000 Ljubljana</p>
+                        <p>Slovenia</p>
                     </div>
                 </div>
             </section>
 
             <!-- Testimonials -->
             <section id="testimonials" class="bg-1">
-                <div class="flex-container text-center">
+                <div class="flex-container center">
                     <div class="row">
                         <div class="column column-1">
                             <img src="./images/testimonials/1.jpeg" alt="" />
                             <h2>Chao W.</h2>
-                            <p>"Beyond expectations - a very pleasant stay!"</p>
+                            <p>
+                                "Beyond expectations - a very pleasant stay!
+                                Hope to be back soon."
+                            </p>
                         </div>
                         <div class="column column-2">
                             <img src="./images/testimonials/2.jpeg" alt="" />
@@ -202,11 +205,10 @@
             </section>
 
             <!-- Contact -->
-            <section id="contact" class="flex-container text-center bg-2">
+            <section id="contact" class="flex-container center bg-2">
                 <div class="row bg-2">
-                    <div class="column">
-                        <div class="column-1">
-                            <form action="submit.php"></form>
+                    <div class="column column-1">
+                        <form action="submit.php">
                             <div class="form-group">
                                 <label for="name">Name</label>
                                 <input type="text" name="name" id="name" />
@@ -222,33 +224,33 @@
                                     id="message"
                                 ></textarea>
                             </div>
-                            <a href="#about" class="btn"
+                            <a href="#contact" class="btn"
                                 ><i class="fas fa-chevron-right"></i>Send</a
                             >
-                        </div>
+                        </form>
                     </div>
-                    <div class="column">
-                        <div class="column-2">
-                            <h2>Contact Us</h2>
-                            <p>Kindly fill out the form below to contact us.</p>
-                            <p>
-                                Feel free to book your room, write a
-                                commendation or a complaint.
-                            </p>
-                        </div>
+                    <div class="column column-2">
+                        <h2>Contact Us</h2>
+                        <p>Kindly fill out the form below to contact us.</p>
+                        <p>
+                            Feel free to book your room, write a commendation or
+                            a complaint.
+                        </p>
                     </div>
                 </div>
             </section>
         </main>
 
         <!-- Footer -->
-        <footer id="footer" class="bg-3 text-center">
-            <div class="social">
-                <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
-                <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
-                <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
-                <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
-                <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+        <footer id="footer" class="bg-3 center">
+            <div class="social flex-container">
+                <div class="row center">
+                    <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+                    <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+                    <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
+                    <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+                    <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+                </div>
             </div>
             <p>Copyright &copy; 2021 - Hotel Slavia</p>
             <p>
@@ -258,6 +260,7 @@
                 >
             </p>
         </footer>
+
         <!-- Scripts -->
         <script src="./js/lightbox-plus-jquery.min.js"></script>
         <script>
