@@ -88,3 +88,34 @@
         flex-direction: row;
     }
 }
+
+@media only screen and (min-width: 1921px) {
+    /* Global */
+    .flex-container h2 {
+        font-size: max(32px, 2vw);
+    }
+
+    .flex-container p {
+        font-size: max(24px, 1vw);
+    }
+
+    /* Hero Image */
+    #hero .content h2 {
+        font-size: max(40px, 2vw);
+    }
+    #hero .content p {
+        font-size: max(20px, 1vw);
+    }
+    #hero .content .btn {
+        font-size: max(20px, 0.5vw);
+    }
+    /* Testimonials */
+    #testimonials .column p {
+        font-size: max(24px, 0.5vw);
+    }
+
+    /* Navbar */
+    #navbar ul li a {
+        font-size: 20px;
+    }
+}
