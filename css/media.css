@@ -94,9 +94,12 @@
     .flex-container h2 {
         font-size: max(32px, 2vw);
     }
-
     .flex-container p {
         font-size: max(24px, 1vw);
+    }
+    .flex-container .row,
+    .flex-container .row-reverse {
+        padding: 0 100px;
     }
 
     /* Hero Image */
