@@ -54,17 +54,20 @@
 .flex-container {
     display: flex;
     flex-direction: column;
+    flex: 1 1 0px;
 }
 .flex-container .row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    flex: 1 1 0px;
     width: 100%;
 }
 .flex-container .row-reverse {
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: wrap;
+    flex: 1 1 0px;
     width: 100%;
 }
 .flex-container .column {
