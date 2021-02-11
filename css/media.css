@@ -8,6 +8,7 @@
     .flex-container .row,
     .flex-container .row-reverse {
         flex-direction: column;
+        flex: 1 1 0px;
     }
 
     /* Hero image */
