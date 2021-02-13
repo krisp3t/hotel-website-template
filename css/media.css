@@ -5,10 +5,9 @@
     }
 
     /* Flex */
-    .flex-container .row,
-    .flex-container .row-reverse {
-        flex-direction: column;
-        flex: 1 1 0px;
+    .flex-container .column {
+        flex: 100%;
+        max-width: 100%;
     }
 
     /* Hero image */
