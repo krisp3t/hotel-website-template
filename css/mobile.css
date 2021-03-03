@@ -13,6 +13,9 @@ section {
 #hero .content {
     padding: 0 10px;
 }
+#hero .content h2 {
+    text-shadow: 3px 3px 10px #000;
+}
 
 /* About */
 #about {

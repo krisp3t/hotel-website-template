@@ -60,6 +60,8 @@ section {
     color: #fff;
     padding: 10px 20px;
     margin: 0 5px;
+    transition: border-bottom 0.3s ease-out;
+    border-color: rgb(78, 0, 0);
 }
 #navbar ul li a:hover {
     border-bottom: 1px solid #cc0022;
@@ -79,6 +81,7 @@ section {
 }
 #hero .content h2 {
     font-size: 40px;
+    text-shadow: 3px 3px 20px #000;
 }
 #hero .content p {
     font-size: 20px;
@@ -161,6 +164,8 @@ section {
 }
 #contact textarea {
     height: 200px;
+    resize: none;
+    padding: 10px;
 }
 #contact .btn {
     padding: 6px 40px;
@@ -178,4 +183,5 @@ section {
 }
 #footer .social a:hover {
     color: #ab112b;
+    transition: color 0.5s ease-out;
 }
