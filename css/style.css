@@ -137,7 +137,7 @@ section {
 }
 
 /* Location */
-#location iframe {
+#location embed {
     width: 70%;
     height: 40vh;
     border: 1px solid #ddd;
