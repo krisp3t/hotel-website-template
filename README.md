@@ -2,7 +2,9 @@
 # Hotel Website Template
 
 A modern looking, minimalistic website template for a fictional hotel company built with pure HTML & CSS and lightweight JS.
+
 Built upon **responsive design** — looks perfect on mobile, tablets & widescreens.
+
 With `utilities.css` (backgrounds, alignments, containers) it is easy to add and change elements on the site.
 
 ## Features
