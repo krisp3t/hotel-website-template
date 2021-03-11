@@ -21,11 +21,6 @@
             media="only screen and (max-width: 1240px)"
             href="css/mobile.css"
         />
-        <link
-            rel="stylesheet"
-            media="only screen and (min-width: 1921px)"
-            href="css/widescreen.css"
-        />
         <link rel="stylesheet" href="css/fontawesome.min.css" />
     </head>
     <body id="home">
@@ -33,23 +28,25 @@
         <header id="hero">
             <!-- Navbar -->
             <div id="navbar">
-                <h1 id="logo">
-                    <a href="#home">
-                        <i class="fas fa-hotel"></i>
-                        Hotel <span class="text-1">Slavia</span>
-                    </a>
-                </h1>
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="#home">Home</a>
-                            <a href="#about">About</a>
-                            <a href="#location">Location</a>
-                            <a href="#testimonials">Testimonials</a>
-                            <a href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                </nav>
+                <div class="container">
+                    <h1 id="logo">
+                        <a href="#home">
+                            <i class="fas fa-hotel"></i>
+                            Hotel <span class="text-1">Slavia</span>
+                        </a>
+                    </h1>
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="#home">Home</a>
+                                <a href="#about">About</a>
+                                <a href="#location">Location</a>
+                                <a href="#testimonials">Testimonials</a>
+                                <a href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
 
             <div class="content center">
@@ -68,118 +65,126 @@
             <!-- About -->
             <section id="about" class="flex-container center bg-3">
                 <!-- Row 1 -->
-                <div class="row bg-3">
-                    <div class="column column-1">
-                        <a
-                            href="images/about/1.jpeg"
-                            data-lightbox="about"
-                            data-title="147 comfortable rooms with rich amenities"
-                        >
-                            <img
-                                src="images/about/1.jpeg"
-                                alt="Photo of a hotel room"
-                        /></a>
-                    </div>
-                    <div class="column column-2">
-                        <h2>
-                            147 comfortable
-                            <span class="text-1">rooms</span>
-                            with rich amenities
-                        </h2>
-                        <p>
-                            Offering you great rest with included room fridge,
-                            minibar, 4K TV and free WiFi.
-                        </p>
-                        <p>
-                            Additionally, there are connectors for laptops and
-                            electronic devices available.
-                        </p>
+                <div class="bg-3">
+                    <div class="row max-width">
+                        <div class="column column-1">
+                            <a
+                                href="images/about/1.jpeg"
+                                data-lightbox="about"
+                                data-title="147 comfortable rooms with rich amenities"
+                            >
+                                <img
+                                    src="images/about/1.jpeg"
+                                    alt="Photo of a hotel room"
+                            /></a>
+                        </div>
+                        <div class="column column-2">
+                            <h2>
+                                147 comfortable
+                                <span class="text-1">rooms</span>
+                                with rich amenities
+                            </h2>
+                            <p>
+                                Offering you great rest with included room
+                                fridge, minibar, 4K TV and free WiFi.
+                            </p>
+                            <p>
+                                Additionally, there are connectors for laptops
+                                and electronic devices available.
+                            </p>
+                        </div>
                     </div>
                 </div>
                 <!-- Row 2 -->
-                <div class="row-reverse bg-2">
-                    <div class="column column-1">
-                        <a
-                            href="images/about/2.jpg"
-                            data-lightbox="about"
-                            data-title="Cafeteria for the gourmands"
-                        >
-                            <img
-                                src="images/about/2.jpg"
-                                alt="Photo of the cafeteria"
-                        /></a>
-                    </div>
-                    <div class="column column-2">
-                        <h2>
-                            <span class="text-1">Cafeteria</span> for the
-                            gourmands
-                        </h2>
-                        <p>
-                            Elite chefs ready to serve you an experience you'll
-                            never forget.
-                        </p>
-                        <p>
-                            Breakfast buffet, traditional lunches with a breath
-                            of modernity, combined with dinners travellers fall
-                            in love with.
-                        </p>
+                <div class="bg-2">
+                    <div class="row-reverse max-width">
+                        <div class="column column-1">
+                            <a
+                                href="images/about/2.jpg"
+                                data-lightbox="about"
+                                data-title="Cafeteria for the gourmands"
+                            >
+                                <img
+                                    src="images/about/2.jpg"
+                                    alt="Photo of the cafeteria"
+                            /></a>
+                        </div>
+                        <div class="column column-2">
+                            <h2>
+                                <span class="text-1">Cafeteria</span> for the
+                                gourmands
+                            </h2>
+                            <p>
+                                Elite chefs ready to serve you an experience
+                                you'll never forget.
+                            </p>
+                            <p>
+                                Breakfast buffet, traditional lunches with a
+                                breath of modernity, combined with dinners
+                                travellers fall in love with.
+                            </p>
+                        </div>
                     </div>
                 </div>
                 <!-- Row 3 -->
-                <div class="row bg-4">
-                    <div class="column column-1">
-                        <a
-                            href="images/about/3.jpeg"
-                            data-lightbox="about"
-                            data-title="Fitness Centre & Spa"
-                        >
-                            <img
-                                src="images/about/3.jpeg"
-                                alt="Photo in the spa centre"
-                        /></a>
-                    </div>
-                    <div class="column column-2">
-                        <h2>
-                            <span class="text-1">Fitness</span> Centre & Spa
-                        </h2>
-                        <p>
-                            Whether you want to stay fit or just want to get
-                            away from it all, we have you covered.
-                        </p>
-                        <p>
-                            Take some time for yourself to strengthen your body
-                            in our modern fitness centre, then visit our sauna
-                            area. You've earned it!
-                        </p>
+                <div class="bg-4">
+                    <div class="row max-width">
+                        <div class="column column-1">
+                            <a
+                                href="images/about/3.jpeg"
+                                data-lightbox="about"
+                                data-title="Fitness Centre & Spa"
+                            >
+                                <img
+                                    src="images/about/3.jpeg"
+                                    alt="Photo in the spa centre"
+                            /></a>
+                        </div>
+                        <div class="column column-2">
+                            <h2>
+                                <span class="text-1">Fitness</span> Centre & Spa
+                            </h2>
+                            <p>
+                                Whether you want to stay fit or just want to get
+                                away from it all, we have you covered.
+                            </p>
+                            <p>
+                                Take some time for yourself to strengthen your
+                                body in our modern fitness centre, then visit
+                                our sauna area. You've earned it!
+                            </p>
+                        </div>
                     </div>
                 </div>
             </section>
 
             <!-- Location -->
             <section id="location" class="flex-container bg-3">
-                <div class="row-reverse bg-3">
-                    <div class="column column-1 center">
-                        <iframe
-                            frameborder="0"
-                            scrolling="no"
-                            marginheight="0"
-                            marginwidth="0"
-                            id="gmap_canvas"
-                            src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=Mestni%20trg%201%20Ljubljana+(Mestni%20trg%201)&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-                        ></iframe>
-                    </div>
-                    <div class="column column-2 center">
-                        <h2>Location</h2>
-                        <p class="text-1">Mestni trg 1</p>
-                        <p>1000 Ljubljana</p>
-                        <p>Slovenia</p>
+                <div class="bg-3">
+                    <div class="row-reverse max-width">
+                        <div class="column column-1 center">
+                            <iframe
+                                frameborder="0"
+                                scrolling="no"
+                                marginheight="0"
+                                marginwidth="0"
+                                id="gmap_canvas"
+                                src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=Mestni%20trg%201%20Ljubljana+(Mestni%20trg%201)&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                            ></iframe>
+                        </div>
+                        <div class="column column-2 center">
+                            <h2>Location</h2>
+                            <p class="text-1">Mestni trg 1</p>
+                            <p>1000 Ljubljana</p>
+                            <p>Slovenia</p>
+                        </div>
                     </div>
                 </div>
             </section>
 
             <!-- Testimonials -->
             <section id="testimonials" class="bg-1">
-                <div class="flex-container center">
+                <div class="flex-container center max-width">
                     <div class="row">
                         <div class="column column-1">
                             <img src="./images/testimonials/1.jpeg" alt="" />
@@ -211,7 +216,7 @@
 
             <!-- Contact -->
             <section id="contact" class="flex-container center bg-2">
-                <div class="row bg-2">
+                <div class="row bg-2 max-width">
                     <div class="column column-1">
                         <form action="submit.php">
                             <div class="form-group">

@@ -1,9 +1,15 @@
+/* Variables */
+:root {
+    --primary: #ab112b;
+    --max-width: calc(max(1700px, 80vw));
+}
+
 /* Button */
 .btn {
     cursor: pointer;
     display: inline-block;
     color: #fff;
-    background-color: #ab112b;
+    background-color: var(--primary);
     border: none;
     border-radius: 20px;
     padding: 5px 15px;
@@ -15,25 +21,29 @@
 
 /* Text */
 .text-1 {
-    color: #ab112b;
+    color: var(--primary);
 }
 
 /* Div backgrounds */
 .bg-1 {
     background-color: #690618;
     color: #ddd;
+    width: 100%;
 }
 .bg-2 {
     background-color: #30475e;
     color: #ddd;
+    width: 100%;
 }
 .bg-3 {
     background-color: #222831;
     color: #ddd;
+    width: 100%;
 }
 .bg-4 {
     background-color: #aaaaaa;
     color: #232323;
+    width: 100%;
 }
 .bg-1 img,
 .bg-2 img,
@@ -56,17 +66,16 @@
     display: flex;
     flex-direction: column;
 }
-.flex-container .row {
+.flex-container .row,
+.flex-container .row-reverse {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
+    padding: 50px 4%;
 }
 .flex-container .row-reverse {
-    display: flex;
     flex-direction: row-reverse;
-    flex-wrap: wrap;
-    width: 100%;
 }
 .flex-container .column {
     display: flex;
@@ -75,8 +84,8 @@
     justify-content: center;
 }
 .flex-container img {
-    max-height: 100%;
-    max-width: 100%;
+    height: 100%;
+    width: 100%;
     object-fit: cover;
     transition: opacity 0.3s ease-out;
 }
@@ -93,4 +102,8 @@
 }
 .flex-container p {
     font-size: 20px;
+}
+.max-width {
+    max-width: var(--max-width);
+    margin: auto;
 }
