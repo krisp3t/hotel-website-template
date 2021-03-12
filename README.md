@@ -21,8 +21,10 @@ With `utilities.css` (backgrounds, alignments, containers) it is easy to add and
 
 Simply clone the repository and open `index.html` in your favourite browser.
 
+# Browser support
+Tested on Chrome / Edge 89, Firefox 86 and Safari 14 (desktop / iOS).
+
 # Preview
 ![Website preview](https://i.ibb.co/z8YJT0s/screencapture-127-0-0-1-5500-index-html-2021-02-11-00-51-01.png)
 
-# Browser support
-Tested on Chrome / Edge 88, Firefox 85 and Safari 14.
+
